@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="SignUpBtn">Sign up with email</string>
+    <string name="signupTerms">By signing uo , you agree to our <u>terms and privacy policy</u></string>
+    <string name="signinbtn">Already have an account?Log in.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

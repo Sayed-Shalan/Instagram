@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/loginLayout"
+    tools:context="instagram.shalan.net.sayed.instagram.LoginActivity"
+    android:background="@color/loginBackground">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/instaword"
+        />
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    >
+    <Button
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/logFaceBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logfacebtn"
+/>
+</android.support.v7.widget.CardView>
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/white"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/SignUpBtn"
+    android:textColor="@android:color/white"
+    android:background="@android:color/transparent"
+    style="?android:attr/borderlessButtonStyle"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:id="@+id/mainsignupbtn"
+    android:textAllCaps="false"
+    android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signupTerms"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/lightGray"/>
+    <View
+        android:id="@+id/SplitLine_hor2"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/signinbtn"
+        android:textColor="@android:color/white"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:id="@+id/mainloginBtn"
+        />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/whiteshadow"/>
+    </FrameLayout>
+</LinearLayout>
+</RelativeLayout>
